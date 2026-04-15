@@ -18,6 +18,7 @@ interface CineLogState {
   user: { id: string };
   myLogs: Log[];
   friends: string[];
+  friendLogs: Log[];
   sortOrder: SortOrder;
   isModalOpen: boolean;
   editingLogId: string | null;
